@@ -40,7 +40,7 @@ header {
 }
 
 
-.resized-image1, .resized-image2, .resized-image3, .resized-image4  {
+.resized-image1, .resized-image2, .resized-image4  {
   width: 300px;
   height: 300px;
   border-radius: 20px;
@@ -54,19 +54,36 @@ header {
   
 }
 
+.resized-image3 img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  
+}
+
+.resized-image3:hover img{
+  filter: blur(7px);
+    opacity: 80%;
+}
 
 .resized-image1:hover img{
     filter: blur(7px);
     opacity: 80%;
 }
 
-.img-text1 {
+.img-text1  {
   position: absolute;
   left: 420px;
   top: 380px;
   
 }
 
+.img-text3 { 
+  position: absolute;
+  left: 70px;
+  top: 380px;
+  text-align: center;
+}
 
 
 
