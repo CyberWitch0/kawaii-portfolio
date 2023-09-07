@@ -1,6 +1,7 @@
 body {
     background-image: url("https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==");
-    
+    font-family: 'Aclonica';
+    font-size: 20px;
   }
   
 h1 {
@@ -37,3 +38,25 @@ header {
   background-color:#FCD2DC;
   
 }
+
+
+.resized-image1, .resized-image2, .resized-image3, .resized-image4  {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.resized-gif {
+  width: 120px; 
+  height: auto;
+  position: absolute;
+  top:0px;
+
+}
+
+
+.font-color1 {
+  color: rgb(108, 108, 108);
+  font-size: 60px;
+  
+ }
