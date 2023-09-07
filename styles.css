@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==");
+    
+  }
+  
+h1 {
+  font-family: aclonica;
+  text-shadow: 4px 2px 4px rgb(198, 122, 122);
+  justify-content: center;
+  display: flex;
+  
+  
+}
+
+header {
+  width: auto;
+  height: 50px;
+  background-color: #33333399; 
+  color: #fff; 
+  padding: 10px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+
+
+.header {
+  width: fit-content;
+  height: fit-content;
+
+}
+
+.aboutus {
+  width: 120px;
+  background-color:#FCD2DC;
+  
+}
