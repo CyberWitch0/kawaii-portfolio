@@ -40,11 +40,6 @@ header {
 }
 
 
-.resized-image1, .resized-image2, .resized-image4  {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-}
 
 
 .resized-image1 img{
@@ -61,15 +56,36 @@ header {
   
 }
 
+.resized-image2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+
+.resized-image4 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.resized-image2:hover img{
+  filter: blur(7px);
+}
+
 .resized-image3:hover img{
   filter: blur(7px);
-    opacity: 80%;
+  
 }
 
 .resized-image1:hover img{
-    filter: blur(7px);
-    opacity: 80%;
+  filter: blur(7px);
 }
+
+.resized-image4:hover img {
+  filter: blur(7px);
+}
+
 
 .img-text1  {
   position: absolute;
@@ -84,6 +100,20 @@ header {
   top: 380px;
   text-align: center;
 }
+
+.img-text2 {
+  position: absolute;
+  bottom: -20px;
+  left:100px;
+}
+
+.img-text4 {
+  position: absolute;
+  left: 420px;
+  bottom: -20px;
+}
+
+
 
 
 
