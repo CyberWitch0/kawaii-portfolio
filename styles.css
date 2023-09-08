@@ -1,7 +1,11 @@
+
 body {
-    background-image: url("https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==");
+    background-color: #FCD2DC;
     font-family: 'Aclonica';
     font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
   }
   
 h1 {
@@ -16,14 +20,13 @@ h1 {
 header {
   width: auto;
   height: 50px;
-  background-color: #33333399; 
+  background: linear-gradient(to right, #FCD2DC, #33333399); 
   color: #fff; 
   padding: 10px 0;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 20px;
 }
-
 
 
 
@@ -34,91 +37,112 @@ header {
 }
 
 .aboutus {
-  width: 120px;
+  width: 80%;
   background-color:#FCD2DC;
-  
-}
-
-
-
-
-.resized-image1 img{
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  
-}
-
-.resized-image3 img{
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  
-}
-
-.resized-image2 img {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-}
-
-
-.resized-image4 img {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-}
-
-.resized-image2:hover img{
-  filter: blur(7px);
-}
-
-.resized-image3:hover img{
-  filter: blur(7px);
-  
-}
-
-.resized-image1:hover img{
-  filter: blur(7px);
-}
-
-.resized-image4:hover img {
-  filter: blur(7px);
-}
-
-
-.img-text1  {
-  position: absolute;
-  left: 420px;
-  top: 380px;
-  
-}
-
-.img-text3 { 
-  position: absolute;
-  left: 70px;
-  top: 380px;
   text-align: center;
-}
-
-.img-text2 {
-  position: absolute;
-  bottom: -20px;
-  left:100px;
-}
-
-.img-text4 {
-  position: absolute;
-  left: 420px;
-  bottom: -20px;
+  
 }
 
 
 
 
 
-.resized-gif {
-  width: 120px; 
+
+/* ----Images with links----------------------------------------------------------- */
+
+.images {
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+/* Girl Image Styles-------------------------------*/
+
+
+.girl-image-text {
+  
+  
+
+}
+
+
+.girl-image-style img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+
+.girl-image-style:hover img {
+  filter: blur(7px);
+}
+
+
+
+
+/* Cat Image Styles-------------------------------*/
+
+.cat-image-container {
+  
+}
+
+
+
+.cat-image-style img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  
+}
+
+.cat-image-style:hover img{
+  filter: blur(7px);
+}
+
+
+
+
+/* Keyboard Image Styles-------------------------------*/
+
+.keyboard-image-style img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.keyboard-image-style:hover img{
+  filter: blur(7px);
+}
+
+
+/* Cow Image Styles-------------------------------*/
+
+.cow-image-style img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  
+}
+
+.cow-image-style:hover img{
+  filter: blur(7px);
+  
+}
+
+
+
+
+
+
+
+
+
+
+.cat-gif {
+  
+  width: 120px;
   height: auto;
   position: absolute;
   top:0px;
